@@ -1,7 +1,7 @@
 import { Component, html } from '@plumejs/core';
 import styles from './styles/base.scss';
 
-console.log(styles);
+console.log('styles', styles);
 
 @Component({
     selector: 'app-root',

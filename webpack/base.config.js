@@ -46,14 +46,21 @@ module.exports = {
       {
         test: /\.(s*)css$/,
         use: [
-          'css-loader',
+          'style-loader',
+          {
+            loader: 'css-loader',
+            options: {
+              importLoaders: 1,
+              esModule: true
+            }
+          },
           {
             loader: 'sass-loader',
             options: {
               // Prefer `dart-sass`
               implementation: require('sass'),
               sassOptions: {
-                fiber: false
+                outputStyle: 'compressed'
               }
             }
           }
