@@ -29,6 +29,13 @@ module.exports = {
         use: ['html-loader']
       },
       {
+        test: /\.m?js/,
+        type: "javascript/auto",
+        resolve: {
+          fullySpecified: false,
+        },
+      },
+      {
         test: /\.ts$/,
         exclude: /node_modules/,
         use: [

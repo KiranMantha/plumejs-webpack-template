@@ -6,7 +6,10 @@
     "target": "esnext",
     "moduleResolution": "node",
     "module": "esnext",
-    "lib": ["DOM", "ESNext"],
+    "lib": [
+      "DOM",
+      "ESNext"
+    ],
     "importHelpers": true,
     "noEmitOnError": true,
     "esModuleInterop": true,
@@ -14,6 +17,12 @@
     "experimentalDecorators": true,
     "sourceMap": true,
     "skipLibCheck": true,
-    "typeRoots": ["@types", "node_modules/@types"]
+    "types": [
+      "vitest/globals"
+    ],
+    "typeRoots": [
+      "@types",
+      "node_modules/@types"
+    ]
   }
 }
