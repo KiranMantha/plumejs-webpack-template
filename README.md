@@ -1,5 +1,5 @@
 # plumejs-webpack-template
-PlumeJS template with webpack bundler
+[PlumeJS](https://www.npmjs.com/package/@plumejs/core) template with webpack bundler
 
 ## To run the app
 `npm run start`
