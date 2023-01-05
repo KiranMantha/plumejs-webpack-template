@@ -9,3 +9,5 @@ PlumeJS template with webpack bundler
 
 ## To run unit tests
 `npm run test`
+
+For unit tests documentation visit [Vitest](https://vitest.dev/)
