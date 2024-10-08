@@ -7,6 +7,8 @@ export default defineConfig({
             inline: true
         },
         coverage: {
+            include: ['src/**'],
+            provider: 'istanbul',
             reporter: ['text', 'json', 'html'],
             cleanOnRerun: true,
             reportsDirectory: 'coverage'
