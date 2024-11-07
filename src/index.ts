@@ -1,5 +1,7 @@
 import { Component, html } from '@plumejs/core';
-import styles from './styles/base.scss';
+import { env } from './env';
+
+console.log('env', env);
 
 @Component({
   selector: 'test-ele'
@@ -15,7 +17,7 @@ export class TestElement {
 
 @Component({
   selector: 'app-root',
-  styles: styles,
+  styles: '',
   root: true
 })
 export class AppComponent {
